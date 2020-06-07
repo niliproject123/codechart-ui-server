@@ -8,15 +8,15 @@ function runApp() {
       return console.log(err)
     }
   
-    return console.log(`server is listening on ${port}`)
+    return console.log(`CodeChart is now running on ${port}`)
   })  
 }
 
-// runApp()
+runApp()
 // to build: pkg .
 // pkg . --targets windows
 // example: https://dev.to/jochemstoel/bundle-your-node-app-to-a-single-executable-for-windows-linux-and-osx-2c89
 
-module.exports = function() {
-  runApp()
-}
+// module.exports = function() {
+//   runApp()
+// }
